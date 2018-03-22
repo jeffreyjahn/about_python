@@ -126,7 +126,7 @@
         color:#ffdf48;
         margin-bottom: 10px;
         font-style: italic;
-        font-size: 16pt;
+        font-size: 14pt;
     }
     .meh-text{
         color:white;
@@ -138,11 +138,13 @@
         padding: 10px 30px 10px 150px;
     }
     .info-links{
-        width: 40%;
+        width: 35%;
         display: inline-block;
         vertical-align: top;
         text-align: center;
-        padding: 5px 60px 10px 10px
+        padding: 5px 60px 10px 10px;
+        border-top: blue 2px solid;
+        margin-right: 20px;
     }
     .info-title{
         font-size: 16pt;
@@ -173,7 +175,7 @@
     }
     .footer-link{
         text-decoration: none;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
     #copyright{
         color:white;
