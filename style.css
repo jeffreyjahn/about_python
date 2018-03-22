@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    /* background */
+    #wrapper{
+        width: 970px;
+        height: 100%;
+        background-color: rgb(36, 83, 121);
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    #header{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #python{
+        width: 40%;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    /* header right */
+    #header-right{
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+        box-sizing: border-box;
+        margin-left: 30%;
+    }
+    #text-toggle{
+        display: inline-block;
+        font-size: 10px;
+        margin: 5px;
+    }
+    .toggle{
+        display: inline-block;
+    }
+    /* search */
+    #search-box{
+        width: auto;
+        text-align: center;
+        background-color: #444444;
+        padding: 15px;
+        border-radius: 10px 5px 10px 5px;
+        box-shadow: 5px 2px 6px black;
+    }
+    #mySearch{
+        width: auto;
+        box-shadow: 5px 2px 6px black;
+    }
+    button{
+        background-color: rgb(36, 83, 121);
+        border-style: solid;
+        border-color: gray;
+        border-width: 2px;
+        border-radius: 10px;
+        padding: 2px;
+        text-align:center;
+        text-decoration: none;
+        display:inline-block;
+        font-size: 16px;
+        color: white;
+        box-shadow: 5px 2px 6px black;
+    }
+    /* navigation bar */
+    .nav-bar{
+        width: 80%;
+        background-color:#467ead;
+        border-radius: 30px;
+        text-align: center;
+        padding: 10px;
+        margin: 15px;
+        margin-left: 75px;
+        box-sizing: border-box;
+        box-shadow: 5px 2px 6px black;
+    }
+    .nav-buttons{
+        font-size: 14pt;
+        display: inline;
+        text-align:center;
+        margin: 20px;
+        box-sizing: border-box;
+    }
+    .nav-butt{
+        text-decoration: none;
+        color: white;
+    }
+    /* top body */
+    #top-body{
+        width: auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    #side-nav{
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+    }
+    .left-nav{
+        list-style-type: circle;
+        list-style-position: inside;
+    }
+    .left-nav-text{
+        font-size: 18px;
+        color: white;
+        list-style-type: circle;
+        margin-left: 20px;        
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* .left-links{
+    } */
+    #main-text-container{
+        width: 65%;
+        display: inline-block;
+        padding: 10px;
+        text-align: center;
+    }
+    #main-body{
+        color: white;
+        margin: 0px 10px 10px 10px;
+    }
+    .yellow-text{
+        color:#ffdf48;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-size: 16pt;
+    }
+    .meh-text{
+        color:white;
+        margin-bottom: 10px;
+        font-size: 14pt;
+    }
+    #mid-body{
+        background-color: white;
+        padding: 10px 30px 10px 150px;
+    }
+    .info-links{
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        padding: 5px 60px 10px 10px
+    }
+    .info-title{
+        font-size: 16pt;
+        font-style: bold;
+        margin-bottom: 12px;
+    }
+    .info-list{
+        font-size: 12pt;
+        margin-bottom: 5px;
+    }
+    .info-list1{
+        list-style-type: circle;
+        margin-left: 20px; 
+        text-decoration: none;
+    }
+    .info-link{
+        text-decoration: none;
+    }
+    a {
+        color: lightskyblue;
+    }
+    #footer{
+        text-align:center;
+        font-size: 10pt;
+    }
+    .footer-info{
+        margin: 10px;
+    }
+    .footer-link{
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    #copyright{
+        color:white;
+        font-size: 8pt;
+    }
